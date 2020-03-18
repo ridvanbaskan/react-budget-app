@@ -1,0 +1,14 @@
+.delete-icon {
+  display: none;
+  transition: all ease-in 0.7s;
+}
+.budget {
+  transition: all ease-in 0.5s;
+  cursor: pointer;
+}
+.budget:hover {
+  transform: translateX(-15px);
+}
+.budget:hover .delete-icon {
+  display: inline-block;
+}

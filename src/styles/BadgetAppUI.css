@@ -1,0 +1,32 @@
+.badget-app-ui {
+  height: 400px;
+  width: 100vw;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 400px;
+  z-index: -1;
+}
+.context {
+  color: white;
+  position: absolute;
+  top: 3rem;
+  width: 100%;
+  z-index: 5;
+}
+.income {
+  width: 20%;
+  margin: auto;
+  height: 50px !important;
+}
+.total {
+  letter-spacing: 2.5px;
+  font-size: 3rem;
+  font-weight: 300;
+}

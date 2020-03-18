@@ -1,0 +1,12 @@
+.budget-form {
+  height: 70px;
+  width: 100vw;
+  background-color: #f0f8ff;
+}
+.check-icon {
+  color: tomato;
+}
+button {
+  border: none;
+  background: none;
+}
